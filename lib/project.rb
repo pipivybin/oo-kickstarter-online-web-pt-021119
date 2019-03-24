@@ -9,9 +9,12 @@ attr_accessor :backers
 def initialize(title)
   @title = title
   @backers = []
+  save
 end
 
-
+def save
+  @@all << self
+end
 
 
 end
