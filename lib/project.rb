@@ -16,5 +16,8 @@ def save
   @@all << self
 end
 
+def add_backer(name)
+
+end
 
 end
